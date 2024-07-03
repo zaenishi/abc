@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-title {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.App-creator {
+  margin: 0.5rem 0 2rem 0;
+  font-style: italic;
+}
+
+.App-input {
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 80%;
+  max-width: 300px;
+}
+
+.App-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.App-button:disabled {
+  background-color: #a9a9a9;
+  cursor: not-allowed;
+}
+
+.App-button:hover:not(:disabled) {
+  background-color: #21a1f1;
+}
+
+.App-predicting {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #ffeb3b;
+}
+
+.User-data {
+  margin-top: 20px;
+  text-align: left;
+  color: #282c34;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.User-data h2 {
+  margin-top: 0;
+}
